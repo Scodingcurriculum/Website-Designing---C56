@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Family Tree</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Interactive Family Tree</h1>
+        <p>Explore my family members by selecting their roles!</p>
+    </header>
+
+    <main>
+        <div class="family-tree">
+            <h2>Meet My Family</h2>
+            
+            <!-- Dropdown for selecting family member -->
+            <div class="dropdown-container">
+                <label for="family-member">Choose a family member:</label>
+                <select id="family-member">
+                    <option value="" disabled selected>Select a member</option>
+                    <option value="father">Father</option>
+                    <option value="mother">Mother</option>
+                    <option value="sibling">Sibling</option>
+                    <option value="grandparent">Grandparent</option>
+                </select>
+            </div>
+            
+            <!-- Information about the selected member -->
+            <div class="family-info">
+                <h3 id="member-title">Family Member Info</h3>
+                <p id="member-details">Please select a family member to view details.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>© 2024 Interactive Family Tree. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

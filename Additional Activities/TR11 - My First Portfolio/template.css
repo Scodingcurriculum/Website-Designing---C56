@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+    font-family: ;
+    margin: ;
+    padding: ;
+    background-color: ; 
+    color: ;
+  }
+  
+  /* Header */
+  .header {
+    text-align: ;
+    background-color: ;
+    color: ;
+    padding: ;
+    border-bottom: ;
+  }
+  
+  .header h1 {
+    margin: ;
+    font-size: ;
+  }
+  
+  .header p {
+    font-size: ;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: ;
+    padding: ;
+  }
+  
+  .navbar ul {
+    list-style: ;
+    margin: ;
+    padding: ;
+    display: ;
+    justify-content: ;
+  }
+  
+  .navbar li {
+    margin: ;
+  }
+  
+  .navbar a {
+    text-decoration: ;
+    color: ;
+    font-weight: ;
+  }
+  
+  /* Section Styles */
+  .section {
+    padding: ;
+    margin: ;
+    max-width: ;
+    background-color: ;
+    border: ;
+    border-radius: ;
+    box-shadow: ;
+  }
+  
+  .section h2 {
+    color: ;
+    margin-top: ;
+    border-bottom: ;
+    padding-bottom: ;
+  }
+  
+  /* About Section */
+  .about-content {
+    display: ;
+    align-items: ;
+    gap: ;
+  }
+  
+  .profile-img {
+    width: ;
+    height: ;
+    border-radius: ;
+    border: ;
+  }
+  
+  /* Projects Section */
+  ul {
+    list-style-type: ;
+    margin-left: ;
+  }
+  
+  /* Skills Section */
+  table {
+    width: ;
+    border-collapse: ;
+    margin-top: ;
+  }
+  
+  table, th, td {
+    border: ;
+  }
+  
+  th, td {
+    padding: ;
+    text-align: ;
+  }
+  
+  /* Contact Section */
+  .contact-form label {
+    display: ;
+    margin-top: ;
+    font-weight: ;
+  }
+  
+  .contact-form input, 
+  .contact-form textarea {
+    width: ;
+    margin-top: ;
+    padding: ;
+    border: ;
+    border-radius: ;
+    font-size: ;
+  }
+  
+  .contact-form button {
+    background-color: ;
+    color: ;
+    font-weight: ;
+    cursor: ;
+    width: ;
+    margin-top: ;
+    padding: ;
+    border: ;
+    border-radius: ;
+    font-size: ;
+  }
+  
+  .contact-form button:hover {
+    background-color: ;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: ;
+    padding: ;
+    background-color: ;
+    color: ;
+    font-size: ;
+  }

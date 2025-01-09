@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f1ff; /* Light lavender background */
+    color: #333;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    background-color: #6a0dad; /* Violet */
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid #dda0dd; /* Pale violet */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+/* Content Section Styles */
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Food Section Styles */
+.food-section {
+    background-color: #fff5e6; /* Peach background */
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #6a0dad; /* Violet border */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.food-section:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.food-section h2 {
+    margin-top: 0;
+    color: #8b008b; /* Darker violet for headers */
+    font-size: 1.5em;
+    border-bottom: 2px solid #dda0dd; /* Pale violet */
+    padding-bottom: 5px;
+}
+
+.food-section p {
+    margin: 10px 0 0;
+    padding: 10px;
+    background-color: #f9f9f9; /* Neutral background */
+    border: 1px dashed #6a0dad; /* Violet dashed border */
+    border-radius: 5px;
+    line-height: 1.6;
+}
+
+/* Additional Activity - 1 */
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Additional Activity - 2 */
+/*
+Teach the box model through a troubleshooting task.
+Provide a broken layout with incorrect spacing and ask students to fix it.
+
+.food-section {
+    margin: 0;
+    padding: 0;
+    border: 5px solid red;
+}
+*/
+
+/* Fixed code */
+.food-section {
+    margin: 20px 10px; /* Adds spacing outside */
+    padding: 20px; /* Adds spacing inside */
+    border: 2px solid #6a0dad; /* Proper border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fun Park Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Register for the Fun Park Adventure!</h1>
+  <form action="thank.html">
+    <label>Name:&nbsp;</label>
+    <input type="text" placeholder="Enter your name" required>
+    <br><br>
+    <label>Email:&nbsp;</label>
+    <input type="email" placeholder="Enter your email" required>
+    <br><br>
+    <label>Age:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <input type="number" min="5" placeholder="Enter your age" required>
+    <br><br>
+    <label>Mobile:</label>
+    <input type="tel" placeholder="Enter your mobile number" required>
+    <br><br>
+    <label>Preferred Visit Time: </label><br><br>
+    <input type="radio" name="time" value="Morning">
+    <label>Morning</label>
+    <input type="radio" name="time" value="Afternoon">
+    <label>Afternoon</label>
+    <input type="radio" name="time" value="Evening">
+    <label>Evening</label>
+    <br><br>
+    <label>Favorite Rides:</label><br><br>
+    <input type="checkbox" name="ride" value="Roller Coaster">
+    <label>Roller Coaster</label>
+    <input type="checkbox" name="ride" value="Ferris Wheel">
+    <label>Ferris Wheel</label>
+    <input type="checkbox" name="ride" value="Bumper Cars">
+    <label>Bumper Cars</label>
+    <br><br>
+    <label>Ticket Type: </label><br><br>
+    <select>
+      <option>Standard</option>
+      <option>Express</option>
+      <option>VIP</option>
+    </select>
+    <br><br>
+    <button type="submit">Register Now</button>
+    <button type="reset">Reset Form</button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+}
+
+.header {
+  text-align: center;
+  background-color: #3a86ff;
+  color: white;
+  padding: 20px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.dropdown-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+select {
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+#content {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 15px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #3a86ff;
+  color: white;
+}

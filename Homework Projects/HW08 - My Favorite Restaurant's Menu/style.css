@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f5e9; /* Light green background */
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #43a047; /* Green for health theme */
+    color: white;
+}
+
+.food-lists {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+ul {
+    list-style: circle;
+    padding-left: 20px;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}

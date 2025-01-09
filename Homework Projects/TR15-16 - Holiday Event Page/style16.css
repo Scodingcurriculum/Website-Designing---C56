@@ -1,0 +1,54 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FDE4CE; /* Soft peach */
+    color: #333;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    background-color: #4E070C; /* Deep red */
+    color: white;
+    padding: 20px;
+    border-bottom: 4px solid #D22701; /* Vibrant red */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+main{
+    margin: 20px;
+}
+/* Add your preferred styles for form and layout */
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.contact-form label, .contact-form input, .contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4E070C;
+    color: white;
+    font-size: 0.9em;
+}

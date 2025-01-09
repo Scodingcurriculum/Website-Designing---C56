@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>My Music Player</title>
+
+  <!-- Import the webpage's stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <h1>Music Player with Genre Selector</h1>
+</header>
+<div class="music">
+    <label for="genre">Choose a genre:</label>
+    <select id="genre">
+        <option value="pop">Pop</option>
+        <option value="classical">Classical</option>
+        <option value="jazz">Jazz</option>
+    </select>
+</div><br><br><br><br><br>
+  <div class="content">
+    <img id="prev" src="prev.png">
+    <img id="play" src="play.png">
+    <img id="next" src="next.png">
+  </div>
+
+  <footer>
+    <p>Explore different genres!</p>
+  </footer>
+
+  <audio id="song">
+    <source src="pop1.mp3" type="audio/mp3" />
+  </audio>
+ 
+  <script src="script.js"></script>
+</body>
+
+</html>

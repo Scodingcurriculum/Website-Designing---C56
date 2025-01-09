@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #0d2233;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #f38181;
+}
+
+/* Event List */
+ul, table {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+ul li {
+  font-size: 1.2em;
+  background-color: #FBDA61;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  border: 1px solid #0d2233;
+}
+
+/* Table Styling */
+table {
+  width: 70%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #0d2233;
+  text-align: center;
+}
+
+th {
+  background-color: #4cf1e6;
+}
+
+td {
+  background-color: #f9f9f9;
+}
+
+/* Form Styling */
+form {
+  background: #eaffd0;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+
+input {
+  width: 97%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #0d2233;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #f38181;
+  border: 1px solid #000;
+  width: 100px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff5ac1;
+}
+

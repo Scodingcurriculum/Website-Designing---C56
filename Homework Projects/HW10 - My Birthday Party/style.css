@@ -1,0 +1,42 @@
+body {
+  background-image: url('https://png.pngtree.com/background/20210714/original/pngtree-cartoon-simple-carnival-playground-entertainment-background-map-picture-image_1218237.jpg');
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 36px;
+  color: #7640ff;
+}
+
+form {
+  font-size: 20px;
+}
+
+label {
+  color: rgba(255, 0, 102, 0.618);
+  font-weight: bold;
+}
+
+input, select {
+  padding: 5px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #7640ff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9405fae5;
+}
