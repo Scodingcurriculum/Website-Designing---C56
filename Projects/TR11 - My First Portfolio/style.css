@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FDE4CE; /* Soft peach */
+  color: #333;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  background-color: #4E070C; /* Deep red */
+  color: white;
+  padding: 20px;
+  border-bottom: 4px solid #D22701; /* Vibrant red */
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.header p {
+  font-size: 1.2em;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #D22701; /* Vibrant red */
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Section Styles */
+.section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #fff;
+  border: 1px solid #D22701;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  color: #4E070C; /* Deep red */
+  margin-top: 0;
+  border-bottom: 2px solid #D22701; /* Red underline */
+  padding-bottom: 5px;
+}
+
+/* About Section */
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #D22701;
+}
+
+/* Projects Section */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Skills Section */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #D22701;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Contact Section */
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.contact-form input, 
+.contact-form textarea{
+  width: 97%;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #D22701;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.contact-form button {
+  width: 100%;
+  background-color: #AAD15F; /* Light green */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #D22701;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.contact-form button:hover {
+  background-color: #4E070C; /* Deep red */
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #D22701;
+  color: white;
+  font-size: 0.9em;
+}

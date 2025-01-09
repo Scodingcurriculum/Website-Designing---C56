@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e90ff;
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+/* Tour Section Styles */
+.tour-section {
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.landmark {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: white;
+    text-align: center;
+}
+
+.landmark img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.landmark h2 {
+    color: #1e90ff;
+    margin: 15px 0 10px;
+}
+
+.landmark p {
+    font-size: 1em;
+    line-height: 1.5;
+}

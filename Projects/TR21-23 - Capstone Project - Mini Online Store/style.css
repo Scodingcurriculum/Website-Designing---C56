@@ -1,0 +1,183 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F0FF; /* Soft violet */
+    color: #333;
+}
+
+/* Header */
+.header {
+    background-color: #D269E0; /* Medium Purple */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header nav {
+    margin-top: 10px;
+}
+
+.header nav a {
+    color: #ADFF2F; /* Chartreuse */
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+    color: #FF00FF; /* Fuchsia Pink */
+}
+
+/* Footer */
+.footer {
+    background-color: #4B0082; /* Violet */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+/* Introduction Section */
+.introduction {
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #FFD700; /* Chartreuse-like yellow */
+    border: 3px solid #ADFF2F; /* Chartreuse */
+    border-radius: 10px;
+}
+
+.introduction img {
+    margin-top: 20px;
+    border: 3px solid #FF00FF; /* Fuchsia Pink */
+    border-radius: 10px;
+    width: 1200px;
+}
+
+/* Features Section */
+.features {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #D269E0; /* Medium Purple */
+    color: white;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.features ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.features li {
+    margin: 5px 0;
+}
+
+/* Catalog Section */
+.catalog {
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.catalog h2 {
+    color: #4B0082; /* Violet */
+}
+
+.catalog .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.product {
+    background-color: #FAF3E0; /* Light beige */
+    border: 2px solid #D269E0; /* Medium Purple */
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-color: #FF00FF; /* Fuchsia Pink */
+}
+
+/* Cart Table */
+.cart-summary table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: 2px solid #D269E0; /* Medium Purple */
+}
+
+.cart-summary th, .cart-summary td {
+    border: 1px solid #D269E0;
+    padding: 10px;
+    text-align: left;
+}
+
+.cart-summary th {
+    background-color: #4B0082; /* Violet */
+    color: white;
+}
+
+.cart-summary td {
+    background-color: #F8F0FF; /* Soft Violet */
+}
+
+/* Contact Us Section */
+.contact-form {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #FAF3E0; /* Light Beige */
+    border: 3px solid #D269E0; /* Medium Purple */
+    border-radius: 10px;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #4B0082; /* Violet */
+}
+
+.contact-form input, .contact-form textarea {
+    width: 96%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #D269E0; /* Medium Purple */
+    border-radius: 5px;
+}
+
+.contact-form button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #FF00FF; /* Fuchsia Pink */
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.contact-form button:hover {
+    background-color: #4B0082; /* Violet */
+    transform: scale(1.05);
+}

@@ -1,0 +1,37 @@
+body {
+  font-family: Arial;
+  font-size: 18px;
+  margin: 0;
+}
+section {
+  margin: 10px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#nav-bar {
+  background: #01193d;
+  color: #ffffff;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+.nav {
+  padding:100px;
+}
+
+span:hover{
+  font-size:30px;
+}
+
+#banner {
+  width: 100%;
+  margin: 0%;
+}
+
+h1,h2 {
+  color: #01193d;
+}

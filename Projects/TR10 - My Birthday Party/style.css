@@ -1,0 +1,33 @@
+html{
+    height: 100%;
+    width: 100%;
+  }
+    body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/722/131/non_2x/happy-birthday-holiday-party-background-with-flags-and-balloons-illustration-free-vector.jpg);
+    text-align: center; 
+    background-size: cover; 
+    font-family: monospace; 
+    background-repeat: no-repeat; 
+  }
+  h1{
+    margin-top:220px;
+    color: #ff2021; font-size: 40px;
+  }
+  form{
+    font-size: 20px;
+  }
+  label{
+    color: aqua;
+  }
+  select{
+    font-size:18px;
+    padding:2px;
+    background-color: #c3dfd7;
+  }
+  button{
+    padding:8px;
+    margin:10px;
+    font-size:20px;
+    border-radius: 20px;
+    background-color: #42ff42;
+  }

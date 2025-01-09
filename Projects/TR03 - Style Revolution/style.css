@@ -1,0 +1,26 @@
+body{
+    background-color: #69f7f7;
+} 
+h1{
+    color:red;
+    margin: 50px;
+}  
+h2{
+    color:purple
+}  
+p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+#box1{
+    background-color: #7cf47c;
+    width:50%;
+    margin-left: 50px;
+    padding: 10px;
+}  
+#box2{
+    background-color: #f29cca;
+    width:50%;
+    margin-left: 50px;
+    padding:10px;
+}  

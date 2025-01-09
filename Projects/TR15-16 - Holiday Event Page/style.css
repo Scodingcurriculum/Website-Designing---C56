@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FDE4CE; /* Soft peach */
+    color: #333;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    background-color: #4E070C; /* Deep red */
+    color: white;
+    padding: 20px;
+    border-bottom: 4px solid #D22701; /* Vibrant red */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+/* Gallery Section */
+.gallery {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.gallery h2 {
+    text-align: center;
+    color: #4E070C;
+    margin-bottom: 20px;
+}
+
+.iframe-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+iframe {
+    width: 300px;
+    height: 200px;
+    border: 3px solid #D22701;
+    border-radius: 5px;
+}
+
+/* Subscription Form */
+.subscription {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #D22701;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.subscription h2 {
+    color: #4E070C;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #D22701;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #AAD15F; /* Light green */
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4E070C; /* Deep red */
+}
+
+/* Thank You Page */
+.thank-you {
+    text-align: center;
+    margin: 50px auto;
+}
+/*for extra space*/
+.space {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.thank-you .button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #D22701; /* Vibrant red */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.thank-you .button:hover {
+    background-color: #4E070C; /* Deep red */
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4E070C;
+    color: white;
+    font-size: 0.9em;
+}
