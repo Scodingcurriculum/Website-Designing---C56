@@ -133,3 +133,40 @@ button:hover {
     color: white;
     font-size: 0.9em;
 }
+
+/* Additional Activity */
+.holiday-info {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #D22701;
+    background-color: #fddd85;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.holiday-info h2 {
+    text-align: center;
+    color: #4E070C;
+    margin-bottom: 20px;
+}
+
+.holiday-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.holiday-info li {
+    margin: 10px 0;
+}
+
+.holiday-info a {
+    color: #D22701;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.holiday-info a:hover {
+    text-decoration: underline;
+}
