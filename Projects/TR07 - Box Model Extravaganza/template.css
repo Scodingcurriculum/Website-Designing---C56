@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+    font-family: ;
+    margin: ;
+    padding: ;
+    background-color: ;
+    color: ;
+}
+
+/* Header Styles */
+.header {
+    text-align: ;
+    background-color: ;
+    color: ;
+    padding: ;
+    margin-bottom: ;
+    border-bottom: ;
+}
+
+.header h1 {
+    margin: ;
+    font-size: ;
+}
+
+.header p {
+    margin: ;
+    font-size: ;
+}
+
+/* Content Section Styles */
+.content {
+    max-width: ;
+    margin: ;
+    padding: ;
+}
+
+/* Food Section Styles */
+.food-section {
+    background-color: ;
+    margin-bottom: ;
+    padding: ;
+    border: ;
+    border-radius: ;
+    box-shadow: ;
+    transition: ;
+}
+
+.food-section:hover {
+    transform: ;
+    box-shadow: ;
+}
+
+.food-section h2 {
+    margin-top: ;
+    color: ;
+    font-size: ;
+    border-bottom: ;
+    padding-bottom: ;
+}
+
+.food-section p {
+    margin: ;
+    padding: ;
+    background-color: ;
+    border: ;
+    border-radius: ;
+    line-height: ;
+}

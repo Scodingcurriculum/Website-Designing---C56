@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+  font-family: ;
+  margin: ;
+  padding: ;
+  background-color: ; 
+  color: ;
+}
+
+/* Header */
+.header {
+  text-align: ;
+  background-color: ; 
+  color: ;
+  padding: ;
+  border-bottom: ;
+}
+
+.header h1 {
+  margin: ;
+  font-size: ;
+}
+
+.header p {
+  font-size: ;
+}
+
+/* Family Tree Section */
+.family-tree {
+  max-width: ;
+  margin: ;
+  background-color: ;
+  border: ;
+  border-radius: ;
+  padding: ;
+  box-shadow: ;
+}
+
+.family-tree h2 {
+  color: ;
+  margin-bottom: ;
+}
+
+/* Dropdown Styling */
+.dropdown-container {
+  margin-bottom: ;
+}
+
+label {
+  font-weight: ;
+  display: ;
+  margin-bottom: ;
+}
+
+select {
+  width: ;
+  padding: ;
+  border: ;
+  border-radius: ;
+  font-size: ;
+  background-color: ;
+}
+
+/* Family Member Info */
+.family-info {
+  text-align: ;
+  border: ;
+  padding: ;
+  border-radius: ;
+  background-color: ;
+  color: ;
+}
+
+.family-info h3 {
+  margin-top: ;
+  color: ;
+}
+
+/* Footer */
+.footer {
+  text-align: ;
+  padding: ;
+  background-color: ;
+  color: ;
+  font-size: ;
+}

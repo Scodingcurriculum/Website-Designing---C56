@@ -1,0 +1,183 @@
+/* General Styles */
+body {
+    font-family: ;
+    margin: ;
+    padding: ;
+    background-color: ;
+    color: ;
+}
+
+/* Header */
+.header {
+    background-color: ;
+    color: ;
+    text-align: ;
+    padding: ;
+}
+
+.header nav {
+    margin-top: ;
+}
+
+.header nav a {
+    color: ;
+    text-decoration: ;
+    margin: ;
+    font-weight: ;
+}
+
+.header nav a:hover {
+    text-decoration: ;
+    color: ;
+}
+
+/* Footer */
+.footer {
+    background-color: ;
+    color: ;
+    text-align: ;
+    padding: ;
+    margin-top: ;
+}
+
+/* Introduction Section */
+.introduction {
+    text-align: ;
+    margin: ;
+    padding: ;
+    background-color: ;
+    border: ;
+    border-radius: ;
+}
+
+.introduction img {
+    margin-top: ;
+    border: ;
+    border-radius: ;
+    width: ;
+}
+
+/* Features Section */
+.features {
+    max-width: ;
+    margin: ;
+    padding: ;
+    background-color: ;
+    color: ;
+    border-radius: ;
+    text-align: ;
+}
+
+.features ul {
+    list-style-type: ;
+    padding-left: ;
+}
+
+.features li {
+    margin: ;
+}
+
+/* Catalog Section */
+.catalog {
+    max-width: ;
+    margin: ;
+    text-align: ;
+}
+
+.catalog h2 {
+    color: ;
+}
+
+.catalog .product-grid {
+    display: ;
+    grid-template-columns: ;
+    gap: ;
+    margin-top: ;
+}
+
+.product {
+    background-color: ;
+    border: ;
+    border-radius: ;
+    text-align: ;
+    padding: ;
+    transition: ;
+}
+
+.product img {
+    width: ;
+    height: ;
+    border-radius: ;
+}
+
+.product:hover {
+    transform: ;
+    box-shadow: ;
+    border-color: ;
+}
+
+/* Cart Table */
+.cart-summary table {
+    width: ;
+    border-collapse: ;
+    margin: ;
+    border: ;
+}
+
+.cart-summary th, .cart-summary td {
+    border: ;
+    padding: ;
+    text-align: ;
+}
+
+.cart-summary th {
+    background-color: ;
+    color: ;
+}
+
+.cart-summary td {
+    background-color: ;
+}
+
+/* Contact Us Section */
+.contact-form {
+    max-width: ;
+    margin: ;
+    padding: ;
+    background-color: ;
+    border: ;
+    border-radius: ;
+}
+
+.contact-form label {
+    display: ;
+    margin-top: ;
+    font-weight: ;
+    color: ;
+}
+
+.contact-form input, .contact-form textarea {
+    width: ;
+    padding: ;
+    margin-top: ;
+    border: ;
+    border-radius: ;
+}
+
+.contact-form button {
+    margin-top: ;
+    width: ;
+    padding: ;
+    background-color: ;
+    color: ;
+    font-weight: ;
+    border: ;
+    border-radius: ;
+    cursor: ;
+    transition: ;
+}
+
+.contact-form button:hover {
+    background-color: ;
+    transform: ;
+}

@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    font-family: ;
+    margin: ;
+    padding: ;
+    background-color: ;
+    color: ;
+}
+
+/* Header Styles */
+.header {
+    text-align: ;
+    padding: ;
+    background-color: ;
+    color: ;
+}
+
+.header h1 {
+    margin: ;
+    font-size: ;
+}
+
+.header p {
+    margin-top: ;
+    font-size: ;
+}
+
+/* Gallery Section Styles */
+.gallery {
+    display: ;
+    justify-content: ;
+    flex-wrap: ;
+    gap: ;
+    padding: ;
+}
+
+.gallery-item {
+    text-align: ;
+    border: ;
+    border-radius: ;
+    padding: ;
+    background-color: ;
+    width: ;
+    transition: ;
+}
+
+.gallery-item:hover {
+    transform: ;
+}
+
+.gallery-item img {
+    max-width: ;
+    height: ;
+    border-radius: ;
+}
+
+.gallery-item p {
+    margin-top: ;
+    font-size: ;
+    color: ;
+    font-weight: ;
+}

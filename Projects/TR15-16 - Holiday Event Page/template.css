@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+    font-family: ;
+    margin: ;
+    padding: ;
+    background-color: ;
+    color: ;
+}
+
+/* Header */
+.header {
+    text-align: ;
+    background-color: ;
+    color: ;
+    padding: ;
+    border-bottom: ;
+}
+
+.header h1 {
+    margin: ;
+    font-size: ;
+}
+
+.header p {
+    font-size: ;
+}
+
+/* Gallery Section */
+.gallery {
+    max-width: ;
+    margin: ;
+    padding: ;
+}
+
+.gallery h2 {
+    text-align: ;
+    color: ;
+    margin-bottom: ;
+}
+
+.iframe-container {
+    display: ;
+    flex-wrap: ;
+    gap: ;
+    justify-content: ;
+}
+
+iframe {
+    width: ;
+    height: ;
+    border: ;
+    border-radius: ;
+}
+
+/* Subscription Form */
+.subscription {
+    max-width: ;
+    margin: ;
+    padding: ;
+    border: ;
+    background-color: ;
+    border-radius: ;
+    box-shadow: ;
+}
+
+.subscription h2 {
+    color: ;
+    margin-bottom: ;
+}
+
+label {
+    font-weight: ;
+    display: ;
+    margin-bottom: ;
+}
+
+input {
+    width: ;
+    padding: ;
+    margin-bottom: ;
+    border: ;
+    border-radius: ;
+}
+
+button {
+    width: ;
+    padding: ;
+    background-color: ;
+    color: ;
+    font-weight: ;
+    font-size: ;
+    border: ;
+    border-radius: ;
+    cursor: ;
+}
+
+button:hover {
+    background-color: ;
+}
+
+/* Thank You Page */
+.thank-you {
+    text-align: ;
+    margin: ;
+}
+/*for extra space*/
+.space {
+    max-width: ;
+    margin: ;
+    padding: ;
+}
+
+.thank-you .button {
+    display: ;
+    margin-top: ;
+    padding: ;
+    background-color: ;
+    color: ;
+    text-decoration: ;
+    font-weight: ;
+    border-radius: ;
+}
+
+.thank-you .button:hover {
+    background-color: ;
+}
+
+/* Footer */
+.footer {
+    text-align: ;
+    padding: ;
+    background-color: ;
+    color: ;
+    font-size: ;
+}

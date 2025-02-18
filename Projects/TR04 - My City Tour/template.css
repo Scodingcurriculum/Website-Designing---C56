@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+    font-family: ;
+    margin: ;
+    padding: ;
+    background-color: ;
+    color: ;
+}
+
+/* Header Styles */
+.header {
+    text-align: ;
+    padding: ;
+    background-color: ;
+    color: ;
+}
+
+.header h1 {
+    margin: ;
+    font-size: ;
+}
+
+.header p {
+    margin-top: ;
+    font-size: ;
+}
+
+/* Tour Section Styles */
+.tour-section {
+    padding: ;
+    display: ;
+    gap: ;
+    max-width: ;
+    margin: ;
+}
+
+.landmark {
+    border: ;
+    border-radius: ;
+    padding: ;
+    background-color: ;
+    text-align: ;
+}
+
+.landmark img {
+    max-width: ;
+    height: ;
+    border-radius: ;
+}
+
+.landmark h2 {
+    color: ;
+    margin: ;
+}
+
+.landmark p {
+    font-size: ;
+    line-height: ;
+}
