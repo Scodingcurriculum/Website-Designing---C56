@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E6F7F5; /* Light mint */
+  color: #2C3E50; /* Dark slate */
+}
+
+/* Header */
+.header {
+  text-align: center;
+  background-color: #006D77; /* Teal */
+  color: white;
+  padding: 20px;
+  border-bottom: 4px solid #83C5BE; /* Soft seafoam */
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.header p {
+  font-size: 1.2em;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #83C5BE; /* Seafoam green */
+  padding: 10px;
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.navbar li {
+  margin: 0 15px;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Section Styles */
+.section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #ffffff;
+  border: 1px solid #83C5BE;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.section h2 {
+  color: #006D77; /* Teal */
+  margin-top: 0;
+  border-bottom: 2px solid #83C5BE;
+  padding-bottom: 5px;
+}
+
+/* About Section */
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #83C5BE;
+}
+
+/* Achievements */
+#achievements ul {
+  list-style-type: none;
+  padding: 0;
+}
+#achievements li {
+  background-color: #EDF6F9; /* Very light teal */
+  padding: 8px;
+  margin: 5px 0;
+  border-left: 5px solid #006D77;
+}
+
+/* Gallery */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+}
+.gallery-grid img {
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid #83C5BE;
+}
+
+/* Skills Section */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+table, th, td {
+  border: 1px solid #83C5BE;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Contact Section */
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.contact-form input, 
+.contact-form textarea {
+  width: 97%;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #83C5BE;
+  border-radius: 5px;
+  font-size: 1em;
+}
+.contact-form button {
+  width: 100%;
+  background-color: #006D77; /* Teal */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #83C5BE;
+  border-radius: 5px;
+  font-size: 1em;
+}
+.contact-form button:hover {
+  background-color: #004C4F; /* Darker teal */
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #83C5BE;
+  color: white;
+  font-size: 0.9em;
+}
