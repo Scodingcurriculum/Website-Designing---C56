@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5; /* soft lavender background */
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff6f61; /* warm coral header */
+    color: white;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+nav {
+    background-color: #ffe4e1; /* light pink navigation */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+main {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+img {
+    width: 600px;
+    border-radius: 15px;
+    border: 1px solid #ff6f61;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff6f61;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Hover effect with color change and slight scale */
+nav a:hover {
+    background-color: #ffb3a7;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* Optional: Add emoji or icon before link text using pseudo-element */
+nav a.access::before { content: "🔒 "; }
+nav a.mobile::before { content: "📱 "; }
+nav a.password::before { content: "🔑 "; }
+nav a.pii::before { content: "🛡️ "; }
+nav a.child::before { content: "👶 "; }
