@@ -1,0 +1,1 @@
+// Static links; no JS required.

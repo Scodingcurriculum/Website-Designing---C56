@@ -1,0 +1,75 @@
+/* Swap only the CSS file; HTML + JS stay the same */
+:root {
+  --bg1: #0b1023;
+  --bg2: #121a3a;
+  --accent: #ffdd57;
+  --btn: #7f5af0;
+  --btn-hover: #5b3bc6;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  background:
+    radial-gradient(1000px 600px at 10% 10%, rgba(255,255,255,0.08), transparent 60%),
+    radial-gradient(800px 500px at 80% 30%, rgba(255,255,255,0.06), transparent 60%),
+    linear-gradient(135deg, var(--bg1), var(--bg2));
+  color: #e5e7eb;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+}
+
+.card {
+  width: 100%;
+  max-width: 540px;
+  background: #0f1430cc;
+  border: 1px solid rgba(127,90,240,0.3);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+h1 { margin: 0 0 16px; color: #c7d2fe; }
+
+label { display: block; margin: 10px 0 6px; font-weight: bold; color: #e2e8f0; }
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 14px;
+  border: 2px solid #243b53;
+  background: #0b122b;
+  color: #e5e7eb;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color .2s, box-shadow .2s;
+}
+
+input[type="text"]::placeholder { color: #94a3b8; }
+
+input[type="text"]:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(255,221,87,.25);
+}
+
+button {
+  margin-top: 14px;
+  width: 100%;
+  padding: 12px 14px;
+  border: 0;
+  border-radius: 12px;
+  background: var(--btn);
+  color: #0b1023;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform .06s ease, background-color .2s, color .2s;
+}
+
+button:hover { background-color: var(--btn-hover); color: #fff; }
+button:active { transform: translateY(1px); }
+
+#tip { margin-top: 12px; color: #a5b4fc; font-size: 14px; }

@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; margin: 24px; max-width: 720px; }
+.q { margin: 14px 0; }
+.key { margin-top: 12px; }
+.correct { color: green; font-weight: bold; }
+.incorrect { color: #b00020; }

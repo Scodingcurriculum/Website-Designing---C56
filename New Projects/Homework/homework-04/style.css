@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F3E7;
+    margin: 20px;
+}
+
+h1 {
+    color: #5A3E85;
+    text-align: center;
+}
+
+.fav-colors {
+    color: #1B9C85;
+    background-color: #E0F7F4;
+    padding: 10px;
+    border-radius: 8px;
+    list-style-position: inside;
+}
+
+.fav-images {
+    color: #FF6B6B;
+    background-color: #FFF0E5;
+    padding: 10px;
+    border-radius: 8px;
+    list-style-position: inside;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Adding book emoji before each list item */
+li::before {
+    content: "\1F4D6  ";
+}
