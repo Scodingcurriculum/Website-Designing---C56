@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFF8F0; /* Soft cream background */
+  color: #2B2B2B; /* Dark charcoal text */
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #C44536; /* Warm red-orange for main heading */
+}
+
+.section {
+  margin: 30px 0;
+}
+
+.section h2 {
+  color: #1D3557; /* Deep navy blue for subheadings */
+}
+
+.videos iframe {
+  margin: 10px;
+  border-radius: 8px;
+  border: 3px solid #E07A5F; /* Coral border for videos */
+}
+
+.link-img {
+  max-width: 120px;
+  margin: 10px;
+  border-radius: 8px;
+  border: 3px solid #F2CC8F; /* Soft golden border for images */
+}
+
+/* Ensure inline layout on wide screens */
+.videos, .links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
