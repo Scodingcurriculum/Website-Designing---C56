@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; margin: 24px; }
+.grid { display:grid; grid-template-columns: repeat(2, 1fr); gap:12px; max-width:480px; }
+figure { margin:0; padding:8px; border:1px solid #ddd; border-radius:10px; }
+img { width:100%; border-radius:8px; }
+figcaption { font-size:14px; color:#333; margin-top:6px; }

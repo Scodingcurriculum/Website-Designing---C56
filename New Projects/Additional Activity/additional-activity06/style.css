@@ -1,0 +1,62 @@
+body {
+  background: url(https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1273516682.jpg?c=original);
+  background-size: cover;
+  color: #ffffff;
+  font-family: verdana;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 100px;
+  text-shadow: 2px 2px #000;
+  background-color: #00000051;
+}
+
+h4 {
+  margin-bottom: 20px;
+  text-shadow: 1px 1px #000;
+  background-color: #00000051;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+table {
+  text-align: center;
+  margin: 0 auto;
+  border-collapse: collapse;
+  /* additional activity */
+  width: 90%; /* set table width as a percentage */
+  font-size: 18px; /* slightly smaller for better fit */
+}
+
+td, th {
+  padding: 10px;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(243, 199, 1);
+}
+
+tr:nth-child(even) {
+  background-color: rgba(0,0,0,0.4);
+}
+
+th {
+  background-color: yellowgreen;
+}
+
+/* Make table scrollable on very small screens */
+@media (max-width: 600px) {
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    
+    th, td {
+        padding: 8px;
+    }
+}

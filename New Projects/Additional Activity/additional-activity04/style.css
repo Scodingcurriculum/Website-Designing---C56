@@ -1,0 +1,47 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #7da2a9; /* Soft teal */
+    color: white;
+}
+
+/* Subject Lists Layout */
+.subject-lists {
+    max-width: 800px;
+    margin: 20px auto;
+    display: grid;
+    gap: 20px;
+}
+
+/* Unordered List Styling */
+.unordered-list-section ul {
+    list-style-type: square;
+    list-style-position: inside;
+    background-color: #fff0f5; /* Lavender blush */
+    padding: 15px;
+    border-radius: 8px;
+    color: #5a2d41; /* Deep rose */
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+}
+
+/* Ordered List Styling */
+.ordered-list-section ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+    background-color: #e6f2ff; /* Light blue */
+    padding: 15px;
+    border-radius: 8px;
+    color: #1b4965; /* Navy blue */
+    font-family: "Georgia", serif;
+    font-weight: bolder;
+}

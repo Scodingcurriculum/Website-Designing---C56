@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; margin: 24px; max-width: 720px; }
+.q { margin-bottom: 16px; }
+.key { margin-top: 14px; }
+.correct { background: #e6ffed; border-left: 4px solid #2ecc71; padding: 4px; }
+.incorrect { background: #ffefef; border-left: 4px solid #e74c3c; padding: 4px; }
+.hidden { display: none; }
+button { padding: 8px 12px; border-radius: 8px; border: 1px solid #ccc; cursor: pointer; }

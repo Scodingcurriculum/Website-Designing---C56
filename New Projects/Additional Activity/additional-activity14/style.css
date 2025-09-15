@@ -1,0 +1,79 @@
+/* Kid-friendly look + hover styling for button */
+:root {
+  --bg1: #89f7fe;
+  --bg2: #66a6ff;
+  --accent: #ffb703;
+  --btn: #1f7aed;
+  --btn-hover: #1557a6;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  background: linear-gradient(135deg, var(--bg1), var(--bg2));
+  display: grid;
+  place-items: center;
+  padding: 16px;
+}
+
+.card {
+  width: 100%;
+  max-width: 520px;
+  background: #ffffffcc;
+  backdrop-filter: blur(3px);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+}
+
+h1 {
+  margin: 0 0 16px;
+  color: #123;
+}
+
+label {
+  display: block;
+  margin: 10px 0 6px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 14px;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color .2s, box-shadow .2s;
+}
+
+input[type="text"]:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(255,183,3,.25);
+}
+
+button {
+  margin-top: 14px;
+  width: 100%;
+  padding: 12px 14px;
+  border: 0;
+  border-radius: 12px;
+  background: var(--btn);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform .06s ease, background-color .2s;
+}
+
+/* ★ Hover effect (required) */
+button:hover { background-color: var(--btn-hover); }
+button:active { transform: translateY(1px); }
+
+#tip {
+  margin-top: 12px;
+  color: #334155;
+  font-size: 14px;
+}

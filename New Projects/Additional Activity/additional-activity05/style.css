@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F4F0F8;
+  color: #2C2C2C;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #6A4C93;
+}
+
+.section {
+  margin: 30px 0;
+}
+
+.section h2 {
+  color: #B84A62;
+}
+
+.videos iframe {
+  margin: 10px;
+  border-radius: 8px;
+  border: 3px solid #E07A5F; /* Coral border for videos */
+}
+
+.link-img {
+  max-width: 120px;
+  margin: 10px;
+  border-radius: 8px;
+  border: 3px solid #F2CC8F; /* Soft golden border for images */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Ensure inline layout on wide screens */
+.videos, .links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Hover effect for images */
+.link-img:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}

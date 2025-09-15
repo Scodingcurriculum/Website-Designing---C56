@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; margin: 24px; }
+.grid { display: flex; gap: 16px; flex-wrap: wrap; }
+.card {
+  width: 180px; padding: 16px; border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform .2s, background-color .2s;
+  background: #f7f9ff; text-align: center;
+}
+.card a { text-decoration: none; color: #222; font-weight: bold; }
+.card:hover { transform: scale(1.05); background-color: #e9f3ff; }
